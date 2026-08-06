@@ -9,7 +9,7 @@ from huggingface_hub import hf_hub_download
 # (see the deployment guide for how to create this Hugging Face repo)
 # ----------------------------------------------------------------------
 MODEL_NAME = "microsoft/deberta-v3-small"
-HF_REPO_ID = "your-username/deberta-mcq-solver"   # <-- CHANGE THIS
+HF_REPO_ID = "dev-1234/deberta-mcq-solver"   # <-- CHANGE THIS
 WEIGHTS_FILENAME = "deberta_mcq_model.pt"
 MAX_LEN = 64
 
